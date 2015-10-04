@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+	<modules>
+		<ESI_HelloWorld>
+			<active>true</active>
+			<codePool>local</codePool>
+		</ESI_HelloWorld>
+	</modules>
+</config>

@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <ESI_HelloWorld>
+            <version>0.1.0</version>    <!-- Version number of your module -->
+        </ESI_HelloWorld>
+    </modules>
+    <frontend>
+        <routers>
+            <mymodule>
+                <use>standard</use>
+                <args>
+                    <module>ESI_HelloWorld</module>
+                    <frontName>helloWorld</frontName>
+                </args>
+            </mymodule>
+        </routers>
+    </frontend>
+</config>
