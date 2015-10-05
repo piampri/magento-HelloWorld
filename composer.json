@@ -1,0 +1,24 @@
+{
+  "name":"esi/hello-world",
+  "type":"magento-module",
+  "license":"proprietary",
+  "description":"Magento Extension for demo purposes only...",
+  "authors":[
+    {
+      "name":"Pia Pringle",
+      "email":"piampri@yahoo.com"
+    }
+  ],
+  "require":{
+    "magento-hackathon/magento-composer-installer":"1.3.x"
+  },
+  "extra":{
+    "map":[
+      ["app/etc/modules/ESI_HelloWorld.xml", "app/etc/modules/ESI_HelloWorld.xml"],
+      ["app/code/local/ESI/HelloWorld/", "app/code/local/ESI/HelloWorld/"]
+    ],
+    "auto-append-gitignore": true,
+    "magento-root-dir": "../../magento.iolgc.local",
+    "magento-deploystrategy":"copy"
+  }
+}
