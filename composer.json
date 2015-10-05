@@ -16,9 +16,6 @@
     "map":[
       ["app/etc/modules/ESI_HelloWorld.xml", "app/etc/modules/ESI_HelloWorld.xml"],
       ["app/code/local/ESI/HelloWorld/", "app/code/local/ESI/HelloWorld/"]
-    ],
-    "auto-append-gitignore": true,
-    "magento-root-dir": "../../magento.iolgc.local",
-    "magento-deploystrategy":"copy"
+    ]
   }
 }
